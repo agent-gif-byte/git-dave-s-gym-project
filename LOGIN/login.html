@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <body>
+        <form action="../Dashboard/dashboard.html">
+            <h1 class="header" style="color: aqua;" >WELCOME TO DAVE'S GYM</h1> <br><br>
+
+            <div class="login">
+                <h2>Welcome </h2>
+                <p style="color: rgb(228, 199, 161);font-size: 14px; font-weight: lighter;">Log in to access your account and manage your gym membership</p>
+            </div>
+
+            <div class="main-container">
+
+                <input style="margin-top: 0;"  type="text" placeholder="Email or mobile number" required>
+                <i class='bx bx-user' style="color: white;"></i>
+ 
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt' style="color: white;"></i>
+            
+        <div class="one-line">
+                <a class="frgt-pass" href="#">Forgot password?</a>
+
+             <div class="gender">
+                <label for="m">Male</label>
+                <input id="m" type="radio" name="answer" required>
+
+                <label for="f">Female</label>
+                <input id="f" type="radio" name="answer" required>
+             </div>
+        </div>    
+
+                <button class="btn-login" type="submit" value="login">Login</button>
+                
+
+                <hr>
+
+                <p style="font-family: verdana;" class="sign-up">Not a member? <a class="sign-link" href="../signup/sign-up.html">Signup now</a></p>
+            </div>
+        </form>
+    </body>
+</html>

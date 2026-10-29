@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color:aqua;
+    background-image: url(gym\ background\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    background-color:rgba(0, 255, 255, 0.13);
+    width: 340px;
+    margin: auto;
+    margin-bottom: 0%;
+    padding: 15px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    border-top-left-radius: 10px ;
+     border-top-right-radius: 10px ;
+
+}
+.main-container{
+    width: 340px;
+    background-color: rgba(255, 255, 255, 0.09);
+    margin: 30px auto;
+    padding: 15px;
+    margin-top: 0 ;
+    border-bottom-left-radius: 10px ;
+     border-bottom-right-radius: 10px ;
+    
+    
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 3px 5px 1px aqua;
+    cursor: pointer;
+    transition: 0.3s;
+     outline: none;
+     padding-right: 40px;
+     background-color: rgba(240, 248, 255, 0.614);
+}
+input::placeholder{
+    color: rgb(0, 1, 1);
+    font-size: larger;
+}
+label{
+    color: white;
+}
+
+
+input:hover{
+   font-size: 15px;
+    box-shadow: 0 4px 5px 2px aqua;
+
+}
+
+.btn-login{
+    margin-top: 10px;
+    width: 100%;
+    padding: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    box-shadow: inset 0 1px 4px 3px aqua;
+    transition: 0.3s;
+    background-color: rgba(240, 248, 255, 0.79);
+}
+.btn-login:hover{
+    box-shadow: 0 1px 4px 3px aqua;
+    font-size: 15px;
+    padding: 11px;
+    border: solid 2px rgba(0, 0, 0, 0.392);
+
+}
+
+.frgt-pass{
+    text-align: left;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(10, 185, 185);
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 17px;
+}
+hr{
+    margin: 20px 0;
+    opacity: 0.5;
+}
+.sign-link{
+    text-decoration: none;
+    color: rgb(26, 167, 167);
+    transition: 0.5s;
+}
+.sign-up{
+    color: white;
+}
+.sign-link:hover{
+    text-decoration: underline;
+    color: rgb(254, 254, 254);
+    font-size: 17px;
+}
+.one-line{
+    display: flex;
+    
+}
+.gender{
+    display: flex;
+    margin-top: 10px;
+}
+.gender input{
+    margin-top: 0;
+    width: 20px;
+    box-shadow: none;
+    margin-bottom: 5px;
+    margin-right: 15px; 
+}

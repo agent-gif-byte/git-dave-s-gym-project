@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+   background-image: url(login\ background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+    background: linear-gradient(135deg, #667eea53, #764ba260);
+    margin: 30px auto;
+    padding: 40px 30px;
+    width: 300px;
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00f7ff,
+         inset  0 0 10px #00f7ff;
+    
+}
+input,button{
+    width: 100%;
+    margin:5px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.3s;
+    color: white;
+    
+}
+input{
+    outline: none;
+    border: 2px solid white;
+    background: linear-gradient(135deg, #54a3e4bb, #7e3ea3c2)
+    
+}
+input:hover{
+     box-shadow: 0 0 5px 2px #00f7ff,
+            inset 0 0 3px #00f7ff;
+    border: 2px solid #00f7ff;
+} 
+.inp::placeholder{
+    color: white;
+     
+}
+button{
+    background-color: #0062ff;
+    color: white;
+     font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid white;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  white;
+    transition: 0.3s;
+    transition: border 2s;
+}
+button:hover{
+    box-shadow: 0 0 10px 5px #00f7ff,
+            inset 0 0 3px #00f7ff;
+    border: 2px solid #000000;
+
+    
+}
+.link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.link a{
+   margin-left: 5px;
+   text-decoration: none;
+   color: rgb(0, 238, 255);
+   transition: 0.3s;
+}
+.link a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.link p{
+    color: rgba(255, 255, 255, 0.566);
+}
+.line{
+      display: flex;
+  align-items: center;
+  text-align: center;
+}
+.line hr{
+      flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.line p{
+    margin: 0 10px;
+  color: rgba(255, 255, 255, 0.633);
+  font-size: 14px;
+}
+.direct{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 5px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.direct:hover{
+    box-shadow: 0 0 10px 5px #00f7ff;
+    border: 2px solid #00f7ff;
+}
+.direct a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.direct a:hover{
+    color: #00f7ff;
+}
+
+.direct i{
+  background: linear-gradient(90deg, 
+    #EA4335 0%, 
+    #EA4335 25%, 
+    #FBBC05 25%, 
+    #FBBC05 50%, 
+    #34A853 50%, 
+    #34A853 75%, 
+    #4285F4 75%, 
+    #4285F4 100%);
+      font-weight: bold;
+  font-size: 20px; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
